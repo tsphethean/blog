@@ -11,6 +11,7 @@ use:
     <article>
         <header>
             <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+            <h6>{{ post.date|date("m/d/Y") }}</h6>
         </header>
         <div>
             {{ post.blocks.content|raw }}
