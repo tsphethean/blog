@@ -1,0 +1,17 @@
+aside > .panel > a > i {
+
+    color: #ccc;
+    font-size: 3em;
+}
+
+aside > .panel > a > i:hover {
+    -webkit-transition: color .5s;
+    -moz-transition: color .5s;
+    -o-transition: color .5s;
+    transition: color .5s;
+    color: #2795b6;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Droid Serif', serif;
+}
