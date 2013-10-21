@@ -5,6 +5,7 @@ date: '2013-10-21'
 description: Estimation, a developer perspective
 categories:
 tags: [Development, Agile]
+draft: true
 
 summary: "How long will it take?"
 ---
