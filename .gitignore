@@ -1,8 +1,6 @@
 /.idea
 /.sculpin/
 /app/cache/*
-/app/config/sculpin_kernel_*.yml
-/app/config/sculpin_site_*.yml
 /app/logs/*
 /output_*/
 s3.conf
