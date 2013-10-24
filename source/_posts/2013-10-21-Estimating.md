@@ -102,6 +102,28 @@ For example, if your estimate is around 3-4 days, call it a week. If it's 3 week
 larger values of time helps set expectations with your stakeholders and also lets you have contingency for the
 inevitable unforseen delays that will arise. The longer the road, the more likely you'll find a pot-hole.
 
+The other way to approach uncertainty in your estimates is to provide a timescale range rather than a fixed number,
+with the size of the range depending on your confidence. For example, if you're very confident you could answer "6-8 days"
+but if you're not certain of your estimate you could say "20-30 days".
+
+#### Offer to re-estimate
+
+Often the estimates we give, even when following the guidance above, will be padded out to reflect our uncertainty and
+unknown complexities. There might be new technologies or approaches, uncertainty over the level work that will be required
+ to meet a performance target, or anything else that you have little experience in on which to base your estimate.
+
+In these cases, and to reflect the uncertainty, you could offer to re-estimate your tasks once you've completed a portion
+of the work. This could be at the end of a first iteration, or initial exploratory phase, during which you're likely (again,
+if following good agile practices) to have started to tackle the things which had the highest risk, uncertainty or potential complexity.
+
+Taking this approach allows you to give an estimate, and then use new found experience to re-baseline after a short period
+in order to adjust your estimates (up or down!) based on what you've learnt. It also demonstrates to a project manager
+that you are mindful of trying to reign in estimates to as much accuracy as possible, but also gives an opportunity to
+flag areas which turn out more complex that first thought.
+
+Even better would be regular backlog grooming of as much of the backlog as is practical, re-visting estimates and updating
+them as you progress through your project and factor in lessons learnt as you go along.
+
 #### Look back
 
 The number one criticisms of developer estimation is that we never learn from our bad estimates,
