@@ -19,3 +19,9 @@ aside > .panel > a > i:hover {
 body, h1, h2, h3, h4, h5, h6 {
     font-family: 'Droid Serif', serif;
 }
+
+
+ul, ol, dl {
+  list-style-position: inside;
+  margin-left: 10px;
+}
