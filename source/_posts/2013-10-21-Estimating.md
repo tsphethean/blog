@@ -36,6 +36,8 @@ Simply take note of why your estimate was wrong, and make sure that the next tim
 an estimate you consider whether the factors that de-railed your previous ones will apply in your new scenario.
 The aim should to be "less wrong" next time.
 
+<!-- break -->
+
 #### Never answer right away
 
 How many times have you been asked how long something would take, maybe

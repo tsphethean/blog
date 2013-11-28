@@ -3,7 +3,7 @@ layout: default
 title: Home
 generator: pagination
 pagination:
-    max_per_page: 3
+    max_per_page: 5
 use:
     - posts
 ---
@@ -14,7 +14,26 @@ use:
             <h6>{{ post.date|date("d F Y") }}</h6>
         </header>
         <div>
-            {{ post.blocks.content|raw }}
+            {# Split the post into an array using explode().
+            Because we provide a length of 2, the "rest"
+            of the post will be stored in the second array
+            element, even if there are multiple breakpoints. #}
+            {% set break_array =
+            post.blocks.content|split('<!-- break -->', 2) %}
+
+            {# Output the first element of the array in raw mode #}
+            {{ break_array[0]|raw }}
+
+            {# Detect if there is more to the post. If the post
+            was only one array element with no breakpoints,
+            it would all have shown up. This Read More link should
+            only show up if there is overflow to the post. #}
+            {% if break_array|length > 1 %}
+            <p>
+                <a href="{{ site.url }}{{ post.url }}">
+                Read more of this post &raquo;</a>
+            </p>
+            {% endif %}
         </div>
         {% if post.meta.tags %}
             <p class="tags">
@@ -28,7 +47,7 @@ use:
 {% endfor %}
 {% if page.pagination.previous_page or page.pagination.next_page %}
     <nav>
-        {% if page.pagination.previous_page %}<a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Posts</a>{% endif %}<br />
-        {% if page.pagination.next_page %}<a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Posts</a>{% endif %}<br />
+        {% if page.pagination.previous_page %}<a href="{{ site.url }}{{ page.pagination.previous_page.url }}" rel="prev">Newer Posts</a>{% endif %}<br />
+        {% if page.pagination.next_page %}<a href="{{ site.url }}{{ page.pagination.next_page.url }}" rel="next">Older Posts</a>{% endif %}<br />
     </nav>
 {% endif %}

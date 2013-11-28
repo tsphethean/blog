@@ -18,7 +18,7 @@ and then rationalised that to:
 > "Drupal is no different to any other software"
 
 And I still believe that in a world where we're convincing people to adopt Open Source technologies, we need to make people aware that just because open source gives you loads and loads for free, it doesn't mean it solves all your problems for you. You still need to put in place dev processes, CI, people investment, release management, etc, etc, etc...
-
+<!-- break -->
 Then, a few days ago, I was having a conversation over a beer with a friend who works in commercial software development working on proprietary software, trying to explain about Drupal, open source, and the community that surrounds it. He was struggling to understand, why should developers expect "free" time to spend on their hobby project of developing for Drupal (contrib or core)?
 
 I've always tried to resist claims that Drupal developers are any different to developers of any other software, and that the inevitable discussions around contribution time, meetups, and other community commitments, are simply something I'd expect of any developer who was passionate about their technology. However, the more we talked, the more I became unsure.

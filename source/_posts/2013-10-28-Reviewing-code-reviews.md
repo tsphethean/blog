@@ -9,4 +9,5 @@ draft: true
 
 summary: "How to make sure your code reviews are effective"
 ---
-Test
+
+#### Automate as much as possible
