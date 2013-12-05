@@ -10,7 +10,7 @@ draft: true
 summary: "How to make sure your code reviews are effective"
 ---
 
-A large part of my role, and that of any senior developer, is carrying out reviews
+A large part of my role, and that of most senior developers, is carrying out reviews
 of the code written by the team to ensure that it meets coding standards for performance,
 security, architectural principles, and adherance to the conventions of the framework or
 platform being developed.
@@ -84,5 +84,26 @@ later on when you realise a change needs significant re-work to pass review.
 
 #### Keep the comments constructive
 
+Remember that your review comments are about the code, and are in complete isolation from the person who
+wrote the code. Keep the comments factual, refer to documented standards or approaches where relevant,
+and if you spot large problems in the code then invite the author to sit with you whilst you review so
+that you can discuss the review as you go through it and turn it into a learning/mentoring exercise which
+will have a much more positive long term outcome than hitting someone with a multitude of review comments.
+
 #### Share the burden
 
+Don't try and review every change yourself. If you do then you're introducing a bottleneck on your
+workflow and creating a Big Red Bus risk. Encourage everyone in the team to participate in reviews,
+even if the final say is yours. From this you will gradually develop new reviewers and spread the
+responsibility of the final approval.
+
+#### Don't give up!
+
+Effective code review is directly linked to quality of the code which reaches production, so don't give in
+to time or management pressures and skip reviews. To support this, the graphs below shows the impact on new
+defects (bottom graph) raised with a corresponding increase in code review coverage (top graph) when a project I've recently worked
+on introduced mandatory code reviews for every change.
+
+<div class="panel center" markdown="1">
+![picture Code review coverage vs New defects](/components/images/code-reviews.png "Code review coverage vs New defects")
+</div>
