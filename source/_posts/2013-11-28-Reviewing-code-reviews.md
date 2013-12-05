@@ -20,7 +20,7 @@ in avoiding this, and ensuring code reviews remain a valued and respected part o
 process. My examples will largely focus on reviewing Drupal code, but easily apply
 elsewhere.
 
-<!--break-->
+<!-- break -->
 
 #### Automate as much as possible
 
