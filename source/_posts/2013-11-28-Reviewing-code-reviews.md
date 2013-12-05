@@ -5,7 +5,6 @@ date: '2013-11-28'
 description: What makes a good code review?
 categories:
 tags: [Development]
-draft: true
 
 summary: "How to make sure your code reviews are effective"
 ---
@@ -49,24 +48,24 @@ The benefits of a central tool are:
 * Visibility of changes and comments through the whole team
 * People who join a review part way through can see previous comments and the progression of
 a piece of code
-* Encourages junior developers to get involved in doing code reviews, or even if they just "watch" them
+* Encourages other developers to get involved in doing code reviews, or even if they just "watch" them
 then they will begin to see what things are being picked up regularly and try to avoid them
 * Good tools allow you to browse back through repository histories so if you're concerned about a change
-you can look back at previous changes to that area of code
+you can look back at previous changes to that area of code to understand the thinking
 
 #### Review changesets, not whole files or patches
 
-Reviewing a whole file in one go (unless it's a new file) can lead to comments being raised code that
+Reviewing a whole file in one go (unless it's a new file) can lead to comments being raised against code that
 has not changed for the ticket you are concerned with. Whilst this kind of review can be useful in some
 scenarios, generally you want to focus on the impacts of changes, and save the "big bang" reviews
-for more formal technical debt reviews. Of course, if you code review from the start then this will
+for more formal technical debt reviews. Of course, if you code review from the start of the project then this will
 be less necessary...
 
 At the other end of the scale, reviewing a patch or diff on its own relies a lot on your brain
 interpreting the diff, knowing the context of the code being changed (or going to some effort to
 apply the patch in context).
 
-Alternatively, reviewing a changeset in your VCS gives you more context, of both the change itself, and the
+Alternatively, reviewing a changeset from your VCS gives you more context, of both the change itself, and the
 reasons for the change (from a good commit message).
 
 #### Encourage small changes, and small reviews
@@ -102,8 +101,10 @@ responsibility of the final approval.
 Effective code review is directly linked to quality of the code which reaches production, so don't give in
 to time or management pressures and skip reviews. To support this, the graphs below shows the impact on new
 defects (bottom graph) raised with a corresponding increase in code review coverage (top graph) when a project I've recently worked
-on introduced mandatory code reviews for every change.
+on introduced mandatory code reviews for every change...
 
-<div class="panel center" markdown="1">
 ![picture Code review coverage vs New defects](/components/images/code-reviews.png "Code review coverage vs New defects")
-</div>
+
+...as you can see, the argument about whether code reviews were a good thing was ended pretty quickly!
+
+So that's my brain dump... what other things do you find make code reviewing easier or more effective?
