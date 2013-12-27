@@ -5,7 +5,6 @@ date: '2013-12-26'
 description: An initial play with Drupal on HHVM
 categories:
 tags: [Development, Drupal, HHVM]
-draft: true
 
 summary: "An initial play with Drupal on HHVM"
 ---
