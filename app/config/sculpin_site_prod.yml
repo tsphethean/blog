@@ -1,5 +1,5 @@
 imports:
 - sculpin_site.yml
-google_analytics_tracking_id: UA-22119510-2
-google_analytics_domain: onjumpstarter.io
+google_analytics_tracking_id: UA-22119510-1
+google_analytics_domain: tsphethean.co.uk
 disqus_shortname: tsphethean
