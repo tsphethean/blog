@@ -1,8 +1,8 @@
 {% extends "default" %}
 {% block content_wrapper %}
-    <article>
-        <h3><a href="#">{{ page.title }}</a></h3>
-        <h6>{{ page.date | date("d F Y")  }}</h6>
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+        <h3 itemprop="name">><a href="#">{{ page.title }}</a></h3>
+        <h6 itemprop="datePublished">{{ page.date | date("d F Y")  }}</h6>
         {{ page.blocks.content|raw }}
         {% if page.categories %}
         <p class="categories">
