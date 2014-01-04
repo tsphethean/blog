@@ -3,7 +3,7 @@
     <article itemscope itemtype="http://schema.org/BlogPosting">
         <header>
             <h3 itemprop="name"><a href="#">{{ page.title }}</a></h3>
-            <h6 itemprop="datePublished">{{ page.date | date("d F Y")  }}</h6>
+            <h6 itemprop="datePublished" content="{{ page.date | date('Y-m-d') }}">{{ page.date | date("d F Y")  }}</h6>
         </header>
         <section itemprop="text">
             {{ page.blocks.content|raw }}
