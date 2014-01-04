@@ -1,9 +1,13 @@
 {% extends "default" %}
 {% block content_wrapper %}
     <article itemscope itemtype="http://schema.org/BlogPosting">
-        <h3 itemprop="name"><a href="#">{{ page.title }}</a></h3>
-        <h6 itemprop="datePublished">{{ page.date | date("d F Y")  }}</h6>
-        {{ page.blocks.content|raw }}
+        <header>
+            <h3 itemprop="name"><a href="#">{{ page.title }}</a></h3>
+            <h6 itemprop="datePublished">{{ page.date | date("d F Y")  }}</h6>
+        </header>
+        <section itemprop="text">
+            {{ page.blocks.content|raw }}
+        </section>
         {% if page.categories %}
         <p class="categories">
             Categories:
@@ -13,7 +17,7 @@
         </p>
         {% endif %}
         {% if page.tags %}
-        <p class="tags">
+        <p class="tags" itemprop="keywords">
             Tags:
             {% for tag in page.tags %}
             <a href="{{ site.url }}/blog/tags/{{ tag }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
