@@ -7,7 +7,7 @@ permalink: drupal.xml
     <title><![CDATA[{{ site.title }} Drupal Planet Feed]]></title>
     <link href="{{ site.url }}/drupal.xml" rel="self"/>
     <link href="{{ site.url }}/"/>
-    <updated>{{ site.calculated_date | date('Y-m-d\TH:i:sP') }}</updated>
+    <updated>{{ site.calculated_date | date('c') }}</updated>
     <id>{{ site.url }}/</id>
     {% if site.author or site.email %}
         <author>
