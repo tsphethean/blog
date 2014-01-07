@@ -10,11 +10,12 @@ summary: "An initial play with Drupal on HHVM"
 ---
 
 The HipHop Virtual Machine team recently issued a [blog post](http://www.hhvm.com/blog/2813/we-are-the-98-5-and-the-16)
-of the results of a 3 week
-lockdown focusing on making HHVM more compatible with popular open source PHP projects,
+of the results of a 3 week lockdown focusing on making HHVM more compatible with popular open source PHP projects,
 and improving performance across the board. As part of this, it was stated that compatibility with Drupal (7 and 8)
 was at 100%. I decided to have a play at getting HHVM up and running with Drupal and doing some initial performance
 investigations.
+
+<!-- break -->
 
 ### Setting up the VM
 
