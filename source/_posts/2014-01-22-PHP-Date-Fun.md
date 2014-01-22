@@ -10,7 +10,8 @@ tags: [Development, PHP]
 
 A project I'm working on at the moment has a requirement to work out subscription
 dates for subscriptions of varying length (3, 6 or 12 months). After some "fun"
-working around some quirks of PHP date handling I thought it worth writing up, partly
+working around some quirks of PHP date handling (and memories of working through this
+ kind of stuff before) I thought it worth writing up, partly
 so I've got a reference next time it comes up, but also in case anyone else finds it
 useful.
 
