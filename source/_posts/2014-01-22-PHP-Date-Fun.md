@@ -49,10 +49,10 @@ or
 
 In both cases, because April is only 30 days long, PHP works out the answer as being 1st May. However,
 for the scenario I was looking at the subscription was defined as ending on either same date in the month
-it was created, or the last day of the month, whichever was shortest (so in the exmaple above, the
+it was created, or the last day of the month, whichever was shortest (so in the example above, the
 expected output would be 30th April 2014. This is quite common in billing/subscription models.
 
-So how to solve it? Well through my diggiing I was reminded of the PHP DateTime class which was added in PHP 5.3
+So how to solve it? Well through my digging I was reminded of the PHP DateTime class which was added in PHP 5.3
 and makes working with dates a bit nicer. So for the above examples we could do:
 
     $date = new DateTime('2014-01-31');
