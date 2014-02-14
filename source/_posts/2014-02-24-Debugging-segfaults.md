@@ -79,4 +79,3 @@ To get a more helpful trace, follow these instructions:
 
         (gdb) source ~/.gdbinit
         (gdb) dump_bt executor_globals.current_execute_data
-        
