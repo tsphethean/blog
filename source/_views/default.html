@@ -62,6 +62,18 @@
             <!-- Sidebar -->
             <aside class="large-3 columns">
 
+                {% if page.related %}
+                <div class="panel">
+                    <h5>Related posts</h5>
+                    <!--<pre>{{ dump(page.related) }}</pre>-->
+                    <ul>
+                        {% for relate in page.related %}
+                        <li><a href="{{ relate.url }}">{{ relate.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+
                 <div class="panel text-center">
                     <h5 class="text-left">Contact me...</h5>
 
