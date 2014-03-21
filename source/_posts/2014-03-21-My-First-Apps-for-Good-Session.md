@@ -5,7 +5,6 @@ date: '2014-03-21'
 description:
 categories:
 tags: [Education]
-draft: true
 ---
 
 #### Apps for Good
