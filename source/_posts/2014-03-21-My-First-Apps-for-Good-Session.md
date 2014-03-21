@@ -15,7 +15,9 @@ a mobile, web or social app to solve real issues they care about. The course tea
 the digital world, while also developing skills in problem solving, creativity, communication and teamwork.
 
 Apps for Good then arrange for "Expert Volunteers" from the world of tech to mentor the student teams in
-one-hour sessions via videoconference or in person.
+one-hour sessions via videoconference or in person. [Capgemini](http://www.uk.capgemini.com/) (my current employer), are
+an Apps for Good partner, so after a session at the end of last year introducing us to the concept and what they
+were about, I decided to sign up and help.
 
 For my first session, the class was a group of Year 9's based in Cornwall, and there were about 27 of them.
 They were building their apps in groups of 3 or 4 so I ended up talking to 7 groups about their apps and
