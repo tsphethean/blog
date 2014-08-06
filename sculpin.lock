@@ -272,12 +272,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tsphethean/sculpin-related-posts-bundle.git",
-                "reference": "1fb8e66f09a7ffe6597d477dca402a5419161aef"
+                "reference": "7398139c3a5c5d407436d385e58b1cf2fe7ac84b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tsphethean/sculpin-related-posts-bundle/zipball/1fb8e66f09a7ffe6597d477dca402a5419161aef",
-                "reference": "1fb8e66f09a7ffe6597d477dca402a5419161aef",
+                "url": "https://api.github.com/repos/tsphethean/sculpin-related-posts-bundle/zipball/7398139c3a5c5d407436d385e58b1cf2fe7ac84b",
+                "reference": "7398139c3a5c5d407436d385e58b1cf2fe7ac84b",
                 "shasum": ""
             },
             "require": {
@@ -308,7 +308,7 @@
                 "site",
                 "static"
             ],
-            "time": "2014-02-23 18:49:58"
+            "time": "2014-03-21 14:38:52"
         }
     ],
     "packages-dev": [
