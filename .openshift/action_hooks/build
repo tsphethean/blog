@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# This deploy hook gets executed after dependencies are resolved and the
+# build hook has been run but before the application has been started back
+# up again.  This script gets executed directly, so it could be python, php,
+# ruby, etc.
+
+
+php -d memory_limit=-1 sculpin.phar update
+php sculpin.phar generate
+
+#
+# Ensure that the app-root/runtime/repo/php PHP directory points
+# to the sculpin output directory
+#
+ln -sfn ${OPENSHIFT_REPO_DIR}output_prod ${OPENSHIFT_REPO_DIR}php
+if [ ! -d "${OPENSHIFT_REPO_DIR}php" ]
+then  
+  echo "ERROR: Unable to link the PHP directory, as the current Drupal instance is not a valid directory."
+  exit 8
+fi
